@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Login-Page</title>
+    <style>
+        .login {
+            width: 350px;
+            height: 250px;
+            padding: 80px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            background: lightgreen;
+        }
+        
+        body {
+            background-image: url(http://blog.olacabs.com/wp-content/uploads/2018/01/Ola-Fleet2.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .ttle {
+            text-align: center;
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="bgimg">
+        <!--  <h1>----------LOGIN PAGE---------</h1>-->
+        <div class="login">
+            <div class="ttle">
+                <h3>--------OLA-------</h3>
+                <h3>-------LOGIN PAGE-------</h3>
+            </div>
+            <form action=cabtypes.html>
+                <label for="mobNum">Enter Your Number:</label><input type="number" name="mobNum" id="mobNum" placeholder="Enter Mobile Number" required><br>
+                <br> <label for="passwrd">Enter Password: </label> <input type="password" name="passwrd" id="passwrd" placeholder="Enter Password" required> <br>
+                <br> <label for="gender"> Gender: </label><br> <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label> <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                <input type="radio" id="other" name="other" value="other"> <label for="other">Other</label> <br> <br> <input type="Submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
